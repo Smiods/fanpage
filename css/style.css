@@ -4,7 +4,7 @@ html {
 
 body {
     height: 100%;
-    
+    background: #4d4d4d;
 }
 a {
     text-decoration: none;
@@ -12,8 +12,13 @@ a {
 
 .main {
     height: 100%;
+    background-image: url('https://s.newsweek.com/sites/www.newsweek.com/files/styles/full/public/2018/07/05/identity-v-mobile-horror-game-review-asymmetrical-multiplayer-dead-daylight.jpg');
 }
 .social-image{
     width: 30px;
     margin: 15px;
+}
+
+.rightPane {
+    background-image: url('https://i.ytimg.com/vi/eB7pYz8_2cM/hqdefault.jpg');
 }
