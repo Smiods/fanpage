@@ -12,7 +12,9 @@ a {
 
 .main {
     height: 100%;
+    width: 100%;
     background-image: url('https://s.newsweek.com/sites/www.newsweek.com/files/styles/full/public/2018/07/05/identity-v-mobile-horror-game-review-asymmetrical-multiplayer-dead-daylight.jpg');
+    
 }
 .social-image{
     width: 30px;
@@ -21,4 +23,53 @@ a {
 
 .rightPane {
     background-image: url('https://i.ytimg.com/vi/eB7pYz8_2cM/hqdefault.jpg');
+}
+
+.header {
+    text-align: center;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: #595959;
+}
+
+.navitem:hover {
+    background: #666666;
+    text-decoration: underline;
+}
+
+.navitem {
+    display: block;
+    justify-content: flex-start;
+    width: 33%;
+    margin: auto;
+    
+}
+
+a {
+    color: white;
+}
+
+.footer {
+    width: 50px;
+    height: 50px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-start; 
+}
+
+.thumbnail {
+    width: 25%;
 }
